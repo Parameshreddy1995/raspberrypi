@@ -24,7 +24,7 @@ default_args = {
   'brokerhost' : '',  # <<< ********** Leave as is
   'brokerport' : '-999',  # <<< ********** Leave as is
   'microserviceid' : '',  # <<< ********** You change as needed
-  'raw_data_topic' : 'cisco-network-mainstream', # Separate multiple topics with comma <<< ********** You change topic names as needed
+  'raw_data_topic' : 'iot-raw-data', # Separate multiple topics with comma <<< ********** You change topic names as needed
   'preprocess_data_topic' : 'iot-preprocess,iot-preprocess2', # Separate multiple topics with comma <<< ********** You change topic names as needed
   'ml_data_topic' : 'ml-data', # Separate multiple topics with comma <<< ********** You change topic names as needed
   'prediction_data_topic' : 'prediction-data', # Separate multiple topics with comma <<< ********** You change topic names as needed
@@ -147,5 +147,4 @@ def setupkafkatopics(**context):
        tsslogging.tsslogit("Cannot create topic {} in {} - {}".format(topic,os.path.basename(__file__),e), "ERROR" )                     
        tsslogging.git_push("/{}".format(repo),"Entry from {}".format(os.path.basename(__file__)),"origin")  
         
-      print("Result=",result)
   tsslogging.locallogs("INFO", "STEP 2: Completed")
