@@ -10307,3 +10307,4 @@ origin	https://<personal access token hidden>@github.com/Parameshreddy1995/raspb
 [INFO 2024-11-21_19:06:27] Deleting topic prediction-data in tml_system_step_2_kafka_createtopic_dag-tmlproject1paramv1-8c73.py
 [INFO 2024-11-21_19:06:30] Deleting topic cisco-network-privategpt in tml_system_step_2_kafka_createtopic_dag-tmlproject1paramv1-8c73.py
 [INFO 2024-11-21_19:06:40] MQTT producing DAG in tml_read_MQTT_step_3_kafka_producetotopic_dag-tmlproject1paramv1-8c73.py
+[INFO 2024-11-21_19:06:46] Preprocessing DAG in tml_system_step_4_kafka_preprocess_dag-tmlproject1paramv1-8c73.py
