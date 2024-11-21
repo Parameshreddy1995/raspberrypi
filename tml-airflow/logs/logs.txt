@@ -10311,3 +10311,4 @@ origin	https://<personal access token hidden>@github.com/Parameshreddy1995/raspb
 [INFO 2024-11-21_19:06:48] Visualization DAG in tml_system_step_7_kafka_visualization_dag-tmlproject1paramv1-8c73.py
 [INFO 2024-11-21_19:07:00] PrivateGPT Step 9 DAG in tml_system_step_9_privategpt_qdrant_dag-tmlproject1paramv1-8c73.py
 [INFO 2024-11-21_19:07:06] Docker DAG in tml_system_step_8_deploy_solution_to_docker_dag-tmlproject1paramv1-8c73.py
+[INFO 2024-11-21_19:13:09] {'name': ['Project with slug "tmlproject1paramv1-8c73" already exists.']}
