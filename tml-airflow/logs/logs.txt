@@ -10247,3 +10247,4 @@ origin	https://<personal access token hidden>@github.com/Parameshreddy1995/raspb
 [INFO 2024-11-21_17:15:18] Deleting topic iot-preprocess in tml_system_step_2_kafka_createtopic_dag-tmlproject1paramv1-8c73.py
 [INFO 2024-11-21_17:15:22] Deleting topic iot-preprocess2 in tml_system_step_2_kafka_createtopic_dag-tmlproject1paramv1-8c73.py
 [INFO 2024-11-21_17:15:26] Deleting topic ml-data in tml_system_step_2_kafka_createtopic_dag-tmlproject1paramv1-8c73.py
+[INFO 2024-11-21_17:15:29] Deleting topic prediction-data in tml_system_step_2_kafka_createtopic_dag-tmlproject1paramv1-8c73.py
